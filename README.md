@@ -20,7 +20,13 @@ We release ids and metadata for selected examples from the [NewsEdits](https://a
 }
 ```
 
-We have also provided ids and metadata for a larger corpus of examples in XXX. 
+We have also provided ids and metadata for a larger corpus of examples in `XXX`.
+
+Additionally, we include annotations from human evaluation in `XXX`. These are represented using the following structure:
+
+```
+
+```
 
 
 If you find this work useful, please consider citing our paper:
