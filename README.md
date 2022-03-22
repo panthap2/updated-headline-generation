@@ -26,7 +26,7 @@ We have also provided ids and metadata for a larger corpus of examples in XXX.
 If you find this work useful, please consider citing our paper:
 
 ```
-@inproceedings{PanthaplackelETAL20UpdatedHeadlineGeneration,
+@inproceedings{PanthaplackelETAL22UpdatedHeadlineGeneration,
   author = {Panthaplackel, Sheena and Benton, Adrian and Dredze, Mark},
   title = {Updated Headline Generation: Creating Updated Summaries for Evolving News Stories},
   booktitle = {Association for Computational Linguistics},
