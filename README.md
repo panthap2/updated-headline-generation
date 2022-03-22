@@ -6,17 +6,21 @@ We release ids and metadata for selected examples from the [NewsEdits](https://a
 
 ```
 {
-  m_id (id of the example formatted like XXX),
+  id: str (formatted like XXX),
   meta_info: {
     'has_headline_change': bool,
     'has_nontrivial_headline_change': bool,
     'has_body_change': bool,
     'has_nontrivial_body_change': bool
-  }
-
-
+  },
+  'old_headline_version_url': str,
+  'new_headline_version_url': str,
+  'old_body_version_url': str,
+  'new_body_version_url': str
 }
 ```
+
+We have also provided ids and metadata for a larger corpus of examples in XXX. 
 
 
 If you find this work useful, please consider citing our paper:
