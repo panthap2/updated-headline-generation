@@ -8,15 +8,15 @@ We release ids and metadata for selected examples from the [NewsEdits](https://a
 {
   id: str,
   meta_info: {
-    'has_headline_change': bool,
-    'has_nontrivial_headline_change': bool,
-    'has_body_change': bool,
-    'has_nontrivial_body_change': bool
+    has_headline_change: bool,
+    has_nontrivial_headline_change: bool,
+    has_body_change: bool,
+    has_nontrivial_body_change: bool
   },
-  'old_headline_version_url': str,
-  'new_headline_version_url': str,
-  'old_body_version_url': str,
-  'new_body_version_url': str
+  old_headline_version_url: str,
+  new_headline_version_url: str,
+  old_body_version_url: str,
+  new_body_version_url: str
 }
 ```
 
@@ -34,17 +34,15 @@ Additionally, we include annotations from human evaluation under `XXX`. Each exa
 
 ```
 {
-  id: str,
-  meta_info: {
-    'has_headline_change': bool,
-    'has_nontrivial_headline_change': bool,
-    'has_body_change': bool,
-    'has_nontrivial_body_change': bool
-  },
-  old_headline_version_url: str,
-  new_headline_version_url: str,
-  old_body_version_url: str,
-  new_body_version_url: str
+  example_id: str,
+  annotator_id: int,
+  prediction: str,
+  predicted_by_model: str,
+  factual: int,
+  important_changes: int,
+  retains_information: int,
+  grammatical: int,
+  concise: int
 }
 ```
 
