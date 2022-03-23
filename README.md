@@ -28,7 +28,7 @@ Note that the `id` field is formatted using the following structure:
 
 To obtain the full headline and body texts, you will need to map the ids back to the NewsEdits corpus using the following components: `DB SOURCE`, `ARTICLE ID`, `OLD HEADLINE VERSION INDEX`, `NEW HEADLINE VERSION INDEX`, `OLD BODY VERSION INDEX`, and `NEW BODY VERSION INDEX`.
 
-We have also provided ids and metadata for a larger corpus of examples in `supplementary_data`. This includes the data we used for training and evaluating a classifier for data filtering as well as the unfiltered updated headline generation data.
+We also include ids and metadata for the data we used for training and evaluating a classifier for data filtering as well as the unfiltered updated headline generation data. These can be found in the `supplementary_data` folder.
 
 Additionally, we include annotations from human evaluation in `XXX`. These are represented using the following structure:
 
