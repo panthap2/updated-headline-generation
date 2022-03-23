@@ -30,7 +30,7 @@ To obtain the full headline and body texts, you will need to map the ids back to
 
 We also include IDs and metadata for examples we used for training and evaluating a classifier to filter HREN, as well as in the unfiltered updated headline generation data. These can be found in the `supplementary_data` folder.
 
-Additionally, we include annotations from human evaluation under `XXX`. Each example is structured as follows:
+Additionally, we include annotations from human evaluation under `human_eval_annotations.json`. Each example is structured as follows:
 
 ```
 {
