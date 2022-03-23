@@ -2,7 +2,7 @@
 
 **Dataset for our ACL-2022 paper "Updated Headline Generation: Creating Updated Summaries for Evolving News Stories"**
 
-We release ids and metadata for selected examples from the [NewsEdits](https://arxiv.org/abs/2104.09647) corpus. The train/valid/test splits of the curated **HREN** dataset that we consider are available in `hren`. Each example is represented as a JSON object resembling the following structure:
+We release ids and metadata for selected examples from the [NewsEdits](https://arxiv.org/abs/2104.09647) corpus for the task of *updated headline generation*. The train/valid/test splits of the curated **HREN** dataset that we consider are available in `hren`. Each example is represented as a JSON object resembling the following structure:
 
 ```
 {
