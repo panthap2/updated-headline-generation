@@ -2,7 +2,7 @@
 
 **Dataset for our ACL-2022 paper "Updated Headline Generation: Creating Updated Summaries for Evolving News Stories"**
 
-We release ids and metadata for selected examples from the [NewsEdits](https://arxiv.org/abs/2104.09647) corpus for the task of *updated headline generation*. The train/valid/test splits of the curated **HREN** dataset that we consider are available in `hren`. Each example is represented as a JSON object resembling the following structure:
+We release ids and metadata for selected examples from the [NewsEdits](https://arxiv.org/abs/2104.09647) corpus for the task of *updated headline generation*. The train/valid/test splits of the <b>H</b>eadline <b>R</b>evision for <b>E</b>volving <b>N</b>ews (**HREN**) dataset are available under `hren`. Each example is represented as a JSON object with the following structure:
 
 ```
 {
@@ -20,7 +20,7 @@ We release ids and metadata for selected examples from the [NewsEdits](https://a
 }
 ```
 
-Note that the `id` field is formatted using the following structure:
+Note that the `id` field is formatted as:
 
 ```
 [DB SOURCE]_[ARTICLE ID]:[OLD HEADLINE VERSION INDEX]-[NEW HEADLINE VERSION INDEX]-[OLD BODY VERSION INDEX]-[NEW BODY VERSION INDEX]:[PAIR INDEX]
@@ -28,16 +28,16 @@ Note that the `id` field is formatted using the following structure:
 
 To obtain the full headline and body texts, you will need to map the ids back to the NewsEdits corpus using the following components: `DB SOURCE`, `ARTICLE ID`, `OLD HEADLINE VERSION INDEX`, `NEW HEADLINE VERSION INDEX`, `OLD BODY VERSION INDEX`, and `NEW BODY VERSION INDEX`.
 
-We also include ids and metadata for the data we used for training and evaluating a classifier for data filtering as well as the unfiltered updated headline generation data. These can be found in the `supplementary_data` folder.
+We also include IDs and metadata for examples we used for training and evaluating a classifier to filter HREN, as well as in the unfiltered updated headline generation data. These can be found in the `supplementary_data` folder.
 
-Additionally, we include annotations from human evaluation in `XXX`. These are represented using the following structure:
-
-```
+Additionally, we include annotations from human evaluation under `XXX`. Each example is structured as follows:
 
 ```
 
+```
 
-If you find this work useful, please consider citing our paper:
+
+If you find this work useful, please cite our paper:
 
 ```
 @inproceedings{PanthaplackelETAL22UpdatedHeadlineGeneration,
@@ -48,3 +48,8 @@ If you find this work useful, please consider citing our paper:
   year = {2022},
 }
 ```
+
+__Enjoy!__
+
+![](hren.jpg)
+Image from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hren_(Horseradish)_(25443687854).jpg) licensed under ([CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.en))
