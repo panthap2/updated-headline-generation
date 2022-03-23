@@ -33,7 +33,19 @@ We also include IDs and metadata for examples we used for training and evaluatin
 Additionally, we include annotations from human evaluation under `XXX`. Each example is structured as follows:
 
 ```
-
+{
+  id: str,
+  meta_info: {
+    'has_headline_change': bool,
+    'has_nontrivial_headline_change': bool,
+    'has_body_change': bool,
+    'has_nontrivial_body_change': bool
+  },
+  old_headline_version_url: str,
+  new_headline_version_url: str,
+  old_body_version_url: str,
+  new_body_version_url: str
+}
 ```
 
 
