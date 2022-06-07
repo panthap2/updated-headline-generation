@@ -1,8 +1,8 @@
 # Updated Headline Generation: Creating Updated Summaries for Evolving News Stories
 
-**Data release is pending**
-
 **Dataset for our ACL-2022 paper "Updated Headline Generation: Creating Updated Summaries for Evolving News Stories"**
+
+**Data can be found here:** [https://zenodo.org/record/6578378](https://zenodo.org/record/6578378)
 
 We release ids and metadata for selected examples from the [NewsEdits](https://arxiv.org/abs/2104.09647) corpus for the task of *updated headline generation*. The train/valid/test splits of the <b>H</b>eadline <b>R</b>evision for <b>E</b>volving <b>N</b>ews (**HREN**) dataset are available under `hren`. Each example is represented as a JSON object with the following structure:
 
