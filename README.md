@@ -56,7 +56,7 @@ If you find this work useful, please cite our paper:
   author = {Panthaplackel, Sheena and Benton, Adrian and Dredze, Mark},
   title = {Updated Headline Generation: Creating Updated Summaries for Evolving News Stories},
   booktitle = {Association for Computational Linguistics},
-  pages = {To Appear},
+  pages = {6438--6461},
   year = {2022},
 }
 ```
