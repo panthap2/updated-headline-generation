@@ -30,6 +30,8 @@ Note that the `id` field is formatted as:
 
 To obtain the full headline and body texts, you will need to map the ids back to the NewsEdits corpus using the following components: `DB SOURCE`, `ARTICLE ID`, `OLD HEADLINE VERSION INDEX`, `NEW HEADLINE VERSION INDEX`, `OLD BODY VERSION INDEX`, and `NEW BODY VERSION INDEX`.
 
+The authors of NewsEdits have released their corpus [here](https://github.com/isi-nlp/newsedits). We have provided the `map_to_newsedits.py` script to help map the HREN ids back to the original NewsEdits corpus.
+
 We also include IDs and metadata for examples we used for training and evaluating a classifier to filter HREN, as well as in the unfiltered updated headline generation data. These can be found in the `supplementary_data` folder.
 
 Additionally, we include annotations from human evaluation under `annotations`. Each example is structured as follows:
